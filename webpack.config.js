@@ -2,10 +2,12 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { ModuleFederationPlugin } = require("webpack").container;
 const path = require("path");
 module.exports = {
-    mode: "development",
+    mode: "production",
     entry: "./src/index.js",
     output: {
         publicPath: "auto",
+        filename: "[name].js",
+        clean: true,
     },
     devServer: {
         port: 3002,
