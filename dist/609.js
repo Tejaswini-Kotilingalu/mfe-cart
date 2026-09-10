@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkcart||=[]).push([[609],{609(e,t,l){l.r(t),l.d(t,{default:()=>r});var n=l(884);function r(){return n.createElement("div",null,n.createElement("h2",null,"Cart"),n.createElement("p",null,"No items yet"))}}}]);

@@ -8,6 +8,7 @@ module.exports = {
         publicPath: "auto",
         filename: "[name].js",
         clean: true,
+        crossOriginLoading: "anonymous",
     },
     devServer: {
         port: 3002,
