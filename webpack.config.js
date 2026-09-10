@@ -5,7 +5,7 @@ module.exports = {
     mode: "development",
     entry: "./src/index.js",
     output: {
-        publicPath: "http://localhost:3002/",
+        publicPath: "auto",
     },
     devServer: {
         port: 3002,
